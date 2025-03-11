@@ -1,0 +1,138 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Installing Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:vscode": {
+      "name": "build:vscode",
+      "command": "npm run build:vscode",
+      "runAtStart": false
+    },
+    "doctoc": {
+      "name": "doctoc",
+      "command": "npm run doctoc",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "npm run release",
+      "runAtStart": false
+    },
+    "release:standalone": {
+      "name": "release:standalone",
+      "command": "npm run release:standalone",
+      "runAtStart": false
+    },
+    "release:prep": {
+      "name": "release:prep",
+      "command": "npm run release:prep",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "npm run test:e2e",
+      "runAtStart": false
+    },
+    "test:e2e:proxy": {
+      "name": "test:e2e:proxy",
+      "command": "npm run test:e2e:proxy",
+      "runAtStart": false
+    },
+    "test:unit": {
+      "name": "test:unit",
+      "command": "npm run test:unit",
+      "runAtStart": false
+    },
+    "test:integration": {
+      "name": "test:integration",
+      "command": "npm run test:integration",
+      "runAtStart": false
+    },
+    "test:native": {
+      "name": "test:native",
+      "command": "npm run test:native",
+      "runAtStart": false
+    },
+    "test:scripts": {
+      "name": "test:scripts",
+      "command": "npm run test:scripts",
+      "runAtStart": false
+    },
+    "package": {
+      "name": "package",
+      "command": "npm run package",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "preinstall": {
+      "name": "preinstall",
+      "command": "npm run preinstall",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall",
+      "runAtStart": false
+    },
+    "publish:npm": {
+      "name": "publish:npm",
+      "command": "npm run publish:npm",
+      "runAtStart": false
+    },
+    "publish:docker": {
+      "name": "publish:docker",
+      "command": "npm run publish:docker",
+      "runAtStart": false
+    },
+    "fmt": {
+      "name": "fmt",
+      "command": "npm run fmt",
+      "runAtStart": false
+    },
+    "lint:scripts": {
+      "name": "lint:scripts",
+      "command": "npm run lint:scripts",
+      "runAtStart": false
+    },
+    "lint:ts": {
+      "name": "lint:ts",
+      "command": "npm run lint:ts",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "npm run watch",
+      "runAtStart": false
+    },
+    "icons": {
+      "name": "icons",
+      "command": "npm run icons",
+      "runAtStart": false
+    }
+  }
+}
